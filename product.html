@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontendStore</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="preload" href="css/app.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" href="assets/logo-white.png">
+</head>
+<body>
+    <header class="header">
+        <a href="/">
+            <img src="assets/logo-horizontal.png" alt="logo-img">
+        </a>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li><a href="/">Store</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <h1>Sass</h1>
+        <div class="producto">
+            <!-- primer hijo -->
+            <img class="producto__img" src="assets/6.jpg" alt="producto-img">
+            
+            <!-- segundo hijo -->
+            <div class="producto__description">
+                <p>Maecenas consectetur ultricies mi vel venenatis. Curabitur risus tellus, congue non tellus at, semper dapibus turpis. Duis pellentesque, risus sit amet placerat porttitor, tortor augue volutpat ante, non dignissim odio ligula at arcu.</p>
+                <form class="producot__form" action="#">
+                    <select name="" id="">
+                        <option value="Select your size" disabled selected>Select your size</option>
+                        <option value="short">Short</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                    <input type="number" min="0" max="100" placeholder="Amount">
+                    <input class="btn" type="submit" value="Add to Card">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__contenedor">
+            <p>Front End Store - Todos los derechos Reservados 2022.</p>
+        </div>
+    </footer>
+</body>
+</html>
