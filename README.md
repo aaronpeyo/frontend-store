@@ -1,2 +1,5 @@
-# frontend-store
-Example of online store page, product menus, about us page.
+# Instalar estas dependencias
+- gulp
+- gulp-autoprefixer
+- gulp-sass
+- sass
